@@ -1,0 +1,16 @@
+Time: 6.001
+	[Name]: drop hoist0 crate1 depot0-2-2 depot0 [when to apply]: end
+Time: 4.001
+	[Name]: drop hoist0 crate1 depot0-2-2 depot0 [when to apply]: start
+	[Name]: go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0 [when to apply]: end
+Time: 3.0008
+	[Name]: go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0 [when to apply]: start
+Time: 3.0
+	[Name]: lift hoist0 crate1 container-0-1 container0 [when to apply]: end
+Time: 1.0005
+	[Name]: lift hoist0 crate1 container-0-1 container0 [when to apply]: start
+Time: 1.0
+	[Name]: go-out hoist0 depot0-2-2 depot0 container-0-1 container0 terminal0 [when to apply]: end
+Time: 3.0E-4
+	[Name]: go-out hoist0 depot0-2-2 depot0 container-0-1 container0 terminal0 [when to apply]: start
+

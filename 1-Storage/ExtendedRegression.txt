@@ -1,0 +1,107 @@
+
+(G0,3.0E-4)
+	Standard List:
+		[(location depot0-2-2 depot0), interval=(4.001,6.001), Father= (drop hoist0 crate1 depot0-2-2 depot0),Type=o_cond]
+		[(clear depot0-2-2), interval=(4.001,4.001), Father= (drop hoist0 crate1 depot0-2-2 depot0),Type=s_cond]
+		[(location container-0-1 container0), interval=(3.0008,4.001), Father= (go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0),Type=o_cond]
+		[(at container0 terminal0), interval=(3.0008,4.001), Father= (go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0),Type=o_cond]
+		[(location depot0-2-2 depot0), interval=(3.0008,4.001), Father= (go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0),Type=o_cond]
+		[(outer-link terminal0 depot0), interval=(3.0008,4.001), Father= (go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0),Type=o_cond]
+		[(location container-0-1 container0), interval=(1.0005,3.0), Father= (lift hoist0 crate1 container-0-1 container0),Type=o_cond]
+		[(available hoist0), interval=(1.0005,1.0005), Father= (lift hoist0 crate1 container-0-1 container0),Type=s_cond]
+		[(in crate1 container-0-1), interval=(1.0005,1.0005), Father= (lift hoist0 crate1 container-0-1 container0),Type=s_cond]
+		[(placed crate1 container0), interval=(1.0005,1.0005), Father= (lift hoist0 crate1 container-0-1 container0),Type=s_cond]
+		[(location depot0-2-2 depot0), interval=(3.0E-4,1.0), Father= (go-out hoist0 depot0-2-2 depot0 container-0-1 container0 terminal0),Type=o_cond]
+		[(location container-0-1 container0), interval=(3.0E-4,1.0), Father= (go-out hoist0 depot0-2-2 depot0 container-0-1 container0 terminal0),Type=o_cond]
+		[(at container0 terminal0), interval=(3.0E-4,1.0), Father= (go-out hoist0 depot0-2-2 depot0 container-0-1 container0 terminal0),Type=o_cond]
+		[(outer-link depot0 terminal0), interval=(3.0E-4,1.0), Father= (go-out hoist0 depot0-2-2 depot0 container-0-1 container0 terminal0),Type=o_cond]
+		[(position hoist0 depot0-2-2), interval=(3.0E-4,3.0E-4), Father= (go-out hoist0 depot0-2-2 depot0 container-0-1 container0 terminal0),Type=s_cond]
+	Special List:
+		[(not (position hoist0 depot0-2-2)), interval=(3.0E-4,3.0E-4), Father= (go-out hoist0 depot0-2-2 depot0 container-0-1 container0 terminal0),Type=s_effect]
+(G1,1.0)
+	Standard List:
+		[(location depot0-2-2 depot0), interval=(4.001,6.001), Father= (drop hoist0 crate1 depot0-2-2 depot0),Type=o_cond]
+		[(clear depot0-2-2), interval=(4.001,4.001), Father= (drop hoist0 crate1 depot0-2-2 depot0),Type=s_cond]
+		[(location container-0-1 container0), interval=(3.0008,4.001), Father= (go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0),Type=o_cond]
+		[(at container0 terminal0), interval=(3.0008,4.001), Father= (go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0),Type=o_cond]
+		[(location depot0-2-2 depot0), interval=(3.0008,4.001), Father= (go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0),Type=o_cond]
+		[(outer-link terminal0 depot0), interval=(3.0008,4.001), Father= (go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0),Type=o_cond]
+		[(location container-0-1 container0), interval=(1.0005,3.0), Father= (lift hoist0 crate1 container-0-1 container0),Type=o_cond]
+		[(available hoist0), interval=(1.0005,1.0005), Father= (lift hoist0 crate1 container-0-1 container0),Type=s_cond]
+		[(in crate1 container-0-1), interval=(1.0005,1.0005), Father= (lift hoist0 crate1 container-0-1 container0),Type=s_cond]
+		[(placed crate1 container0), interval=(1.0005,1.0005), Father= (lift hoist0 crate1 container-0-1 container0),Type=s_cond]
+		[(location depot0-2-2 depot0), interval=(3.0E-4,1.0), Father= (go-out hoist0 depot0-2-2 depot0 container-0-1 container0 terminal0),Type=o_cond]
+		[(location container-0-1 container0), interval=(3.0E-4,1.0), Father= (go-out hoist0 depot0-2-2 depot0 container-0-1 container0 terminal0),Type=o_cond]
+		[(at container0 terminal0), interval=(3.0E-4,1.0), Father= (go-out hoist0 depot0-2-2 depot0 container-0-1 container0 terminal0),Type=o_cond]
+		[(outer-link depot0 terminal0), interval=(3.0E-4,1.0), Father= (go-out hoist0 depot0-2-2 depot0 container-0-1 container0 terminal0),Type=o_cond]
+	Special List:
+		[(position hoist0 container-0-1), interval=(1.0,1.0), Father= (go-out hoist0 depot0-2-2 depot0 container-0-1 container0 terminal0),Type=e_effect]
+(G2,1.0005)
+	Standard List:
+		[(location depot0-2-2 depot0), interval=(4.001,6.001), Father= (drop hoist0 crate1 depot0-2-2 depot0),Type=o_cond]
+		[(clear depot0-2-2), interval=(4.001,4.001), Father= (drop hoist0 crate1 depot0-2-2 depot0),Type=s_cond]
+		[(location container-0-1 container0), interval=(3.0008,4.001), Father= (go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0),Type=o_cond]
+		[(at container0 terminal0), interval=(3.0008,4.001), Father= (go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0),Type=o_cond]
+		[(location depot0-2-2 depot0), interval=(3.0008,4.001), Father= (go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0),Type=o_cond]
+		[(outer-link terminal0 depot0), interval=(3.0008,4.001), Father= (go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0),Type=o_cond]
+		[(position hoist0 container-0-1), interval=(3.0008,3.0008), Father= (go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0),Type=s_cond]
+		[(position hoist0 container-0-1), interval=(1.0005,3.0), Father= (lift hoist0 crate1 container-0-1 container0),Type=o_cond]
+		[(location container-0-1 container0), interval=(1.0005,3.0), Father= (lift hoist0 crate1 container-0-1 container0),Type=o_cond]
+		[(available hoist0), interval=(1.0005,1.0005), Father= (lift hoist0 crate1 container-0-1 container0),Type=s_cond]
+		[(in crate1 container-0-1), interval=(1.0005,1.0005), Father= (lift hoist0 crate1 container-0-1 container0),Type=s_cond]
+		[(placed crate1 container0), interval=(1.0005,1.0005), Father= (lift hoist0 crate1 container-0-1 container0),Type=s_cond]
+	Special List:
+		[(not (available hoist0)), interval=(1.0005,1.0005), Father= (lift hoist0 crate1 container-0-1 container0),Type=s_effect]
+		[(lifting hoist0 crate1), interval=(1.0005,1.0005), Father= (lift hoist0 crate1 container-0-1 container0),Type=s_effect]
+(G3,3.0)
+	Standard List:
+		[(location depot0-2-2 depot0), interval=(4.001,6.001), Father= (drop hoist0 crate1 depot0-2-2 depot0),Type=o_cond]
+		[(clear depot0-2-2), interval=(4.001,4.001), Father= (drop hoist0 crate1 depot0-2-2 depot0),Type=s_cond]
+		[(lifting hoist0 crate1), interval=(4.001,4.001), Father= (drop hoist0 crate1 depot0-2-2 depot0),Type=s_cond]
+		[(location container-0-1 container0), interval=(3.0008,4.001), Father= (go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0),Type=o_cond]
+		[(at container0 terminal0), interval=(3.0008,4.001), Father= (go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0),Type=o_cond]
+		[(location depot0-2-2 depot0), interval=(3.0008,4.001), Father= (go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0),Type=o_cond]
+		[(outer-link terminal0 depot0), interval=(3.0008,4.001), Father= (go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0),Type=o_cond]
+		[(position hoist0 container-0-1), interval=(3.0008,3.0008), Father= (go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0),Type=s_cond]
+		[(position hoist0 container-0-1), interval=(1.0005,3.0), Father= (lift hoist0 crate1 container-0-1 container0),Type=o_cond]
+		[(location container-0-1 container0), interval=(1.0005,3.0), Father= (lift hoist0 crate1 container-0-1 container0),Type=o_cond]
+	Special List:
+		[(not (in crate1 container-0-1)), interval=(3.0,3.0), Father= (lift hoist0 crate1 container-0-1 container0),Type=e_effect]
+		[(clear container-0-1), interval=(3.0,3.0), Father= (lift hoist0 crate1 container-0-1 container0),Type=e_effect]
+		[(not (placed crate1 container0)), interval=(3.0,3.0), Father= (lift hoist0 crate1 container-0-1 container0),Type=e_effect]
+(G4,3.0008)
+	Standard List:
+		[(location depot0-2-2 depot0), interval=(4.001,6.001), Father= (drop hoist0 crate1 depot0-2-2 depot0),Type=o_cond]
+		[(clear depot0-2-2), interval=(4.001,4.001), Father= (drop hoist0 crate1 depot0-2-2 depot0),Type=s_cond]
+		[(lifting hoist0 crate1), interval=(4.001,4.001), Father= (drop hoist0 crate1 depot0-2-2 depot0),Type=s_cond]
+		[(location container-0-1 container0), interval=(3.0008,4.001), Father= (go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0),Type=o_cond]
+		[(at container0 terminal0), interval=(3.0008,4.001), Father= (go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0),Type=o_cond]
+		[(location depot0-2-2 depot0), interval=(3.0008,4.001), Father= (go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0),Type=o_cond]
+		[(outer-link terminal0 depot0), interval=(3.0008,4.001), Father= (go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0),Type=o_cond]
+		[(position hoist0 container-0-1), interval=(3.0008,3.0008), Father= (go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0),Type=s_cond]
+	Special List:
+		[(not (position hoist0 container-0-1)), interval=(3.0008,3.0008), Father= (go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0),Type=s_effect]
+(G5,4.001)
+	Standard List:
+		[(location depot0-2-2 depot0), interval=(4.001,6.001), Father= (drop hoist0 crate1 depot0-2-2 depot0),Type=o_cond]
+		[(clear depot0-2-2), interval=(4.001,4.001), Father= (drop hoist0 crate1 depot0-2-2 depot0),Type=s_cond]
+		[(lifting hoist0 crate1), interval=(4.001,4.001), Father= (drop hoist0 crate1 depot0-2-2 depot0),Type=s_cond]
+		[(location container-0-1 container0), interval=(3.0008,4.001), Father= (go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0),Type=o_cond]
+		[(at container0 terminal0), interval=(3.0008,4.001), Father= (go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0),Type=o_cond]
+		[(location depot0-2-2 depot0), interval=(3.0008,4.001), Father= (go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0),Type=o_cond]
+		[(outer-link terminal0 depot0), interval=(3.0008,4.001), Father= (go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0),Type=o_cond]
+	Special List:
+		[(position hoist0 depot0-2-2), interval=(4.001,4.001), Father= (go-in hoist0 container-0-1 container0 terminal0 depot0-2-2 depot0),Type=e_effect]
+(G6,6.001)
+	Standard List:
+		[(position hoist0 depot0-2-2), interval=(4.001,6.001), Father= (drop hoist0 crate1 depot0-2-2 depot0),Type=o_cond]
+		[(location depot0-2-2 depot0), interval=(4.001,6.001), Father= (drop hoist0 crate1 depot0-2-2 depot0),Type=o_cond]
+	Special List:
+		[(not (clear depot0-2-2)), interval=(6.001,6.001), Father= (drop hoist0 crate1 depot0-2-2 depot0),Type=e_effect]
+		[(not (lifting hoist0 crate1)), interval=(6.001,6.001), Father= (drop hoist0 crate1 depot0-2-2 depot0),Type=e_effect]
+		[(available hoist0), interval=(6.001,6.001), Father= (drop hoist0 crate1 depot0-2-2 depot0),Type=e_effect]
+		[(in crate1 depot0-2-2), interval=(6.001,6.001), Father= (drop hoist0 crate1 depot0-2-2 depot0),Type=e_effect]
+		[(placed crate1 depot0), interval=(6.001,6.001), Father= (drop hoist0 crate1 depot0-2-2 depot0),Type=e_effect]
+(G7,1.7976931348623157E308)
+	Standard List:
+	Special List:

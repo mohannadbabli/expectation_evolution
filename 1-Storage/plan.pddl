@@ -1,0 +1,18 @@
+
+; Version LPG-td-1.0
+; Seed 47031922
+; Command line: ./lpg-td-1.0 -o domain.pddl -f problem.pddl -n 20 
+; Problem problem.pddl
+; Time 0.06
+; Search time 0.06
+; Parsing time 0.00
+; Mutex time 0.00
+; MakeSpan 26.00
+
+0.0003:   (GO-OUT HOIST0 DEPOT0-2-2 DEPOT0 CONTAINER-0-1 CONTAINER0 TERMINAL0) [1.0000]
+1.0005:   (LIFT HOIST0 CRATE1 CONTAINER-0-1 CONTAINER0) [2.0000]
+3.0008:   (GO-IN HOIST0 CONTAINER-0-1 CONTAINER0 TERMINAL0 DEPOT0-2-2 DEPOT0) [1.0000]
+4.0010:   (DROP HOIST0 CRATE1 DEPOT0-2-2 DEPOT0) [2.0000]
+
+
+
