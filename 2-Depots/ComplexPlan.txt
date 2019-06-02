@@ -1,0 +1,20 @@
+Time: 25.0
+	[Name]: unload hoist2 crate0 truck0 distributor1 [when to apply]: end
+Time: 24.0
+	[Name]: drop hoist2 crate0 pallet2 distributor1 [when to apply]: end
+Time: 23.0
+	[Name]: drop hoist2 crate0 pallet2 distributor1 [when to apply]: start
+	[Name]: unload hoist2 crate0 truck0 distributor1 [when to apply]: start
+	[Name]: drive truck0 distributor0 distributor1 [when to apply]: end
+Time: 11.0
+	[Name]: drive truck0 distributor0 distributor1 [when to apply]: start
+	[Name]: load hoist1 crate0 truck0 distributor0 [when to apply]: end
+Time: 10.0
+	[Name]: load hoist1 crate0 truck0 distributor0 [when to apply]: start
+	[Name]: drive truck0 distributor1 distributor0 [when to apply]: end
+Time: 1.0
+	[Name]: lift hoist1 crate0 pallet1 distributor0 [when to apply]: end
+Time: 0.0
+	[Name]: drive truck0 distributor1 distributor0 [when to apply]: start
+	[Name]: lift hoist1 crate0 pallet1 distributor0 [when to apply]: start
+

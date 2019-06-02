@@ -1,0 +1,77 @@
+
+(G0,3.0E-4)
+	Standard List:
+		[(road city-loc-4 city-loc-3), interval=(46.0009,46.0009), Father= (drive truck-2 city-loc-4 city-loc-3),Type=s_cond]
+		[(>= (fuel-left truck-2) (fuel-demand city-loc-4 city-loc-3)), interval=(46.0009,46.0009), Father= (drive truck-2 city-loc-4 city-loc-3),Type=s_cond]
+		[(at package-2 city-loc-4), interval=(45.0006,45.0006), Father= (pick-up truck-2 city-loc-4 package-2),Type=s_cond]
+		[(>= (capacity truck-2) (package-size package-2)), interval=(45.0006,45.0006), Father= (pick-up truck-2 city-loc-4 package-2),Type=s_cond]
+		[(ready-loading truck-2), interval=(45.0006,45.0006), Father= (pick-up truck-2 city-loc-4 package-2),Type=s_cond]
+		[(at truck-2 city-loc-3), interval=(3.0E-4,3.0E-4), Father= (drive truck-2 city-loc-3 city-loc-4),Type=s_cond]
+		[(road city-loc-3 city-loc-4), interval=(3.0E-4,3.0E-4), Father= (drive truck-2 city-loc-3 city-loc-4),Type=s_cond]
+		[(>= (fuel-left truck-2) (fuel-demand city-loc-3 city-loc-4)), interval=(3.0E-4,3.0E-4), Father= (drive truck-2 city-loc-3 city-loc-4),Type=s_cond]
+	Special List:
+		[(not (at truck-2 city-loc-3)), interval=(3.0E-4,3.0E-4), Father= (drive truck-2 city-loc-3 city-loc-4),Type=s_effect]
+		[(decrease (fuel-left truck-2) (fuel-demand city-loc-3 city-loc-4)), interval=(3.0E-4,3.0E-4), Father= (drive truck-2 city-loc-3 city-loc-4),Type=s_effect]
+(G1,45.0)
+	Standard List:
+		[(road city-loc-4 city-loc-3), interval=(46.0009,46.0009), Father= (drive truck-2 city-loc-4 city-loc-3),Type=s_cond]
+		[(>= (fuel-left truck-2) (fuel-demand city-loc-4 city-loc-3)), interval=(46.0009,46.0009), Father= (drive truck-2 city-loc-4 city-loc-3),Type=s_cond]
+		[(at package-2 city-loc-4), interval=(45.0006,45.0006), Father= (pick-up truck-2 city-loc-4 package-2),Type=s_cond]
+		[(>= (capacity truck-2) (package-size package-2)), interval=(45.0006,45.0006), Father= (pick-up truck-2 city-loc-4 package-2),Type=s_cond]
+		[(ready-loading truck-2), interval=(45.0006,45.0006), Father= (pick-up truck-2 city-loc-4 package-2),Type=s_cond]
+	Special List:
+		[(at truck-2 city-loc-4), interval=(45.0,45.0), Father= (drive truck-2 city-loc-3 city-loc-4),Type=e_effect]
+(G2,45.0006)
+	Standard List:
+		[(at truck-2 city-loc-4), interval=(45.0006,46.001), Father= (pick-up truck-2 city-loc-4 package-2),Type=o_cond]
+		[(at truck-2 city-loc-4), interval=(46.0009,46.0009), Father= (drive truck-2 city-loc-4 city-loc-3),Type=s_cond]
+		[(road city-loc-4 city-loc-3), interval=(46.0009,46.0009), Father= (drive truck-2 city-loc-4 city-loc-3),Type=s_cond]
+		[(>= (fuel-left truck-2) (fuel-demand city-loc-4 city-loc-3)), interval=(46.0009,46.0009), Father= (drive truck-2 city-loc-4 city-loc-3),Type=s_cond]
+		[(at truck-2 city-loc-4), interval=(45.0006,45.0006), Father= (pick-up truck-2 city-loc-4 package-2),Type=s_cond]
+		[(at package-2 city-loc-4), interval=(45.0006,45.0006), Father= (pick-up truck-2 city-loc-4 package-2),Type=s_cond]
+		[(>= (capacity truck-2) (package-size package-2)), interval=(45.0006,45.0006), Father= (pick-up truck-2 city-loc-4 package-2),Type=s_cond]
+		[(ready-loading truck-2), interval=(45.0006,45.0006), Father= (pick-up truck-2 city-loc-4 package-2),Type=s_cond]
+	Special List:
+		[(not (at package-2 city-loc-4)), interval=(45.0006,45.0006), Father= (pick-up truck-2 city-loc-4 package-2),Type=s_effect]
+		[(decrease (capacity truck-2) (package-size package-2)), interval=(45.0006,45.0006), Father= (pick-up truck-2 city-loc-4 package-2),Type=s_effect]
+		[(not (ready-loading truck-2)), interval=(45.0006,45.0006), Father= (pick-up truck-2 city-loc-4 package-2),Type=s_effect]
+(G3,46.0009)
+	Standard List:
+		[(at truck-2 city-loc-4), interval=(45.0006,46.001), Father= (pick-up truck-2 city-loc-4 package-2),Type=o_cond]
+		[(at truck-2 city-loc-4), interval=(46.0009,46.0009), Father= (drive truck-2 city-loc-4 city-loc-3),Type=s_cond]
+		[(road city-loc-4 city-loc-3), interval=(46.0009,46.0009), Father= (drive truck-2 city-loc-4 city-loc-3),Type=s_cond]
+		[(>= (fuel-left truck-2) (fuel-demand city-loc-4 city-loc-3)), interval=(46.0009,46.0009), Father= (drive truck-2 city-loc-4 city-loc-3),Type=s_cond]
+	Special List:
+		[(not (at truck-2 city-loc-4)), interval=(46.0009,46.0009), Father= (drive truck-2 city-loc-4 city-loc-3),Type=s_effect]
+		[(decrease (fuel-left truck-2) (fuel-demand city-loc-4 city-loc-3)), interval=(46.0009,46.0009), Father= (drive truck-2 city-loc-4 city-loc-3),Type=s_effect]
+(G4,46.001)
+	Standard List:
+		[(at truck-2 city-loc-4), interval=(45.0006,46.001), Father= (pick-up truck-2 city-loc-4 package-2),Type=o_cond]
+	Special List:
+		[(in package-2 truck-2), interval=(46.001,46.001), Father= (pick-up truck-2 city-loc-4 package-2),Type=e_effect]
+		[(ready-loading truck-2), interval=(46.001,46.001), Father= (pick-up truck-2 city-loc-4 package-2),Type=e_effect]
+(G5,91.001)
+	Standard List:
+		[(in package-2 truck-2), interval=(91.0012,91.0012), Father= (drop truck-2 city-loc-3 package-2),Type=s_cond]
+		[(ready-loading truck-2), interval=(91.0012,91.0012), Father= (drop truck-2 city-loc-3 package-2),Type=s_cond]
+	Special List:
+		[(at truck-2 city-loc-3), interval=(91.001,91.001), Father= (drive truck-2 city-loc-4 city-loc-3),Type=e_effect]
+(G6,91.0012)
+	Standard List:
+		[(at truck-2 city-loc-3), interval=(91.0012,92.001), Father= (drop truck-2 city-loc-3 package-2),Type=o_cond]
+		[(at truck-2 city-loc-3), interval=(91.0012,91.0012), Father= (drop truck-2 city-loc-3 package-2),Type=s_cond]
+		[(in package-2 truck-2), interval=(91.0012,91.0012), Father= (drop truck-2 city-loc-3 package-2),Type=s_cond]
+		[(ready-loading truck-2), interval=(91.0012,91.0012), Father= (drop truck-2 city-loc-3 package-2),Type=s_cond]
+	Special List:
+		[(not (in package-2 truck-2)), interval=(91.0012,91.0012), Father= (drop truck-2 city-loc-3 package-2),Type=s_effect]
+		[(not (ready-loading truck-2)), interval=(91.0012,91.0012), Father= (drop truck-2 city-loc-3 package-2),Type=s_effect]
+(G7,92.001)
+	Standard List:
+		[(at truck-2 city-loc-3), interval=(91.0012,92.001), Father= (drop truck-2 city-loc-3 package-2),Type=o_cond]
+	Special List:
+		[(at package-2 city-loc-3), interval=(92.001,92.001), Father= (drop truck-2 city-loc-3 package-2),Type=e_effect]
+		[(increase (capacity truck-2) (package-size package-2)), interval=(92.001,92.001), Father= (drop truck-2 city-loc-3 package-2),Type=e_effect]
+		[(ready-loading truck-2), interval=(92.001,92.001), Father= (drop truck-2 city-loc-3 package-2),Type=e_effect]
+(G8,1.7976931348623157E308)
+	Standard List:
+	Special List:

@@ -1,0 +1,97 @@
+
+(G0,0.0)
+	Standard List:
+		[(at hoist2 distributor1), interval=(23.0,25.0), Father= (unload hoist2 crate0 truck0 distributor1),Type=o_cond]
+		[(at hoist2 distributor1), interval=(23.0,24.0), Father= (drop hoist2 crate0 pallet2 distributor1),Type=o_cond]
+		[(at pallet2 distributor1), interval=(23.0,24.0), Father= (drop hoist2 crate0 pallet2 distributor1),Type=o_cond]
+		[(clear pallet2), interval=(23.0,24.0), Father= (drop hoist2 crate0 pallet2 distributor1),Type=o_cond]
+		[(available hoist2), interval=(23.0,23.0), Father= (unload hoist2 crate0 truck0 distributor1),Type=s_cond]
+		[(at hoist1 distributor0), interval=(10.0,11.0), Father= (load hoist1 crate0 truck0 distributor0),Type=o_cond]
+		[(at hoist1 distributor0), interval=(0.0,1.0), Father= (lift hoist1 crate0 pallet1 distributor0),Type=o_cond]
+		[(at truck0 distributor1), interval=(0.0,0.0), Father= (drive truck0 distributor1 distributor0),Type=s_cond]
+		[(available hoist1), interval=(0.0,0.0), Father= (lift hoist1 crate0 pallet1 distributor0),Type=s_cond]
+		[(at crate0 distributor0), interval=(0.0,0.0), Father= (lift hoist1 crate0 pallet1 distributor0),Type=s_cond]
+		[(on crate0 pallet1), interval=(0.0,0.0), Father= (lift hoist1 crate0 pallet1 distributor0),Type=s_cond]
+		[(clear crate0), interval=(0.0,0.0), Father= (lift hoist1 crate0 pallet1 distributor0),Type=s_cond]
+	Special List:
+		[(not (at truck0 distributor1)), interval=(0.0,0.0), Father= (drive truck0 distributor1 distributor0),Type=s_effect]
+		[(not (at crate0 distributor0)), interval=(0.0,0.0), Father= (lift hoist1 crate0 pallet1 distributor0),Type=s_effect]
+		[(lifting hoist1 crate0), interval=(0.0,0.0), Father= (lift hoist1 crate0 pallet1 distributor0),Type=s_effect]
+		[(not (clear crate0)), interval=(0.0,0.0), Father= (lift hoist1 crate0 pallet1 distributor0),Type=s_effect]
+		[(not (available hoist1)), interval=(0.0,0.0), Father= (lift hoist1 crate0 pallet1 distributor0),Type=s_effect]
+		[(clear pallet1), interval=(0.0,0.0), Father= (lift hoist1 crate0 pallet1 distributor0),Type=s_effect]
+		[(not (on crate0 pallet1)), interval=(0.0,0.0), Father= (lift hoist1 crate0 pallet1 distributor0),Type=s_effect]
+(G1,1.0)
+	Standard List:
+		[(at hoist2 distributor1), interval=(23.0,25.0), Father= (unload hoist2 crate0 truck0 distributor1),Type=o_cond]
+		[(at hoist2 distributor1), interval=(23.0,24.0), Father= (drop hoist2 crate0 pallet2 distributor1),Type=o_cond]
+		[(at pallet2 distributor1), interval=(23.0,24.0), Father= (drop hoist2 crate0 pallet2 distributor1),Type=o_cond]
+		[(clear pallet2), interval=(23.0,24.0), Father= (drop hoist2 crate0 pallet2 distributor1),Type=o_cond]
+		[(available hoist2), interval=(23.0,23.0), Father= (unload hoist2 crate0 truck0 distributor1),Type=s_cond]
+		[(at hoist1 distributor0), interval=(10.0,11.0), Father= (load hoist1 crate0 truck0 distributor0),Type=o_cond]
+		[(lifting hoist1 crate0), interval=(10.0,11.0), Father= (load hoist1 crate0 truck0 distributor0),Type=o_cond]
+		[(at hoist1 distributor0), interval=(0.0,1.0), Father= (lift hoist1 crate0 pallet1 distributor0),Type=o_cond]
+	Special List:
+(G2,10.0)
+	Standard List:
+		[(at hoist2 distributor1), interval=(23.0,25.0), Father= (unload hoist2 crate0 truck0 distributor1),Type=o_cond]
+		[(at hoist2 distributor1), interval=(23.0,24.0), Father= (drop hoist2 crate0 pallet2 distributor1),Type=o_cond]
+		[(at pallet2 distributor1), interval=(23.0,24.0), Father= (drop hoist2 crate0 pallet2 distributor1),Type=o_cond]
+		[(clear pallet2), interval=(23.0,24.0), Father= (drop hoist2 crate0 pallet2 distributor1),Type=o_cond]
+		[(available hoist2), interval=(23.0,23.0), Father= (unload hoist2 crate0 truck0 distributor1),Type=s_cond]
+		[(at hoist1 distributor0), interval=(10.0,11.0), Father= (load hoist1 crate0 truck0 distributor0),Type=o_cond]
+		[(lifting hoist1 crate0), interval=(10.0,11.0), Father= (load hoist1 crate0 truck0 distributor0),Type=o_cond]
+	Special List:
+		[(at truck0 distributor0), interval=(10.0,10.0), Father= (drive truck0 distributor1 distributor0),Type=e_effect]
+(G3,11.0)
+	Standard List:
+		[(at hoist2 distributor1), interval=(23.0,25.0), Father= (unload hoist2 crate0 truck0 distributor1),Type=o_cond]
+		[(at hoist2 distributor1), interval=(23.0,24.0), Father= (drop hoist2 crate0 pallet2 distributor1),Type=o_cond]
+		[(at pallet2 distributor1), interval=(23.0,24.0), Father= (drop hoist2 crate0 pallet2 distributor1),Type=o_cond]
+		[(clear pallet2), interval=(23.0,24.0), Father= (drop hoist2 crate0 pallet2 distributor1),Type=o_cond]
+		[(available hoist2), interval=(23.0,23.0), Father= (unload hoist2 crate0 truck0 distributor1),Type=s_cond]
+		[(at truck0 distributor0), interval=(11.0,11.0), Father= (drive truck0 distributor0 distributor1),Type=s_cond]
+		[(at hoist1 distributor0), interval=(10.0,11.0), Father= (load hoist1 crate0 truck0 distributor0),Type=o_cond]
+		[(at truck0 distributor0), interval=(10.0,11.0), Father= (load hoist1 crate0 truck0 distributor0),Type=o_cond]
+		[(lifting hoist1 crate0), interval=(10.0,11.0), Father= (load hoist1 crate0 truck0 distributor0),Type=o_cond]
+	Special List:
+		[(not (at truck0 distributor0)), interval=(11.0,11.0), Father= (drive truck0 distributor0 distributor1),Type=s_effect]
+		[(not (lifting hoist1 crate0)), interval=(11.0,11.0), Father= (load hoist1 crate0 truck0 distributor0),Type=e_effect]
+		[(in crate0 truck0), interval=(11.0,11.0), Father= (load hoist1 crate0 truck0 distributor0),Type=e_effect]
+		[(available hoist1), interval=(11.0,11.0), Father= (load hoist1 crate0 truck0 distributor0),Type=e_effect]
+(G4,23.0)
+	Standard List:
+		[(at hoist2 distributor1), interval=(23.0,25.0), Father= (unload hoist2 crate0 truck0 distributor1),Type=o_cond]
+		[(at hoist2 distributor1), interval=(23.0,24.0), Father= (drop hoist2 crate0 pallet2 distributor1),Type=o_cond]
+		[(at pallet2 distributor1), interval=(23.0,24.0), Father= (drop hoist2 crate0 pallet2 distributor1),Type=o_cond]
+		[(clear pallet2), interval=(23.0,24.0), Father= (drop hoist2 crate0 pallet2 distributor1),Type=o_cond]
+		[(available hoist2), interval=(23.0,23.0), Father= (unload hoist2 crate0 truck0 distributor1),Type=s_cond]
+		[(in crate0 truck0), interval=(23.0,23.0), Father= (unload hoist2 crate0 truck0 distributor1),Type=s_cond]
+	Special List:
+		[(not (in crate0 truck0)), interval=(23.0,23.0), Father= (unload hoist2 crate0 truck0 distributor1),Type=s_effect]
+		[(not (available hoist2)), interval=(23.0,23.0), Father= (unload hoist2 crate0 truck0 distributor1),Type=s_effect]
+		[(lifting hoist2 crate0), interval=(23.0,23.0), Father= (unload hoist2 crate0 truck0 distributor1),Type=s_effect]
+		[(at truck0 distributor1), interval=(23.0,23.0), Father= (drive truck0 distributor0 distributor1),Type=e_effect]
+(G5,24.0)
+	Standard List:
+		[(at hoist2 distributor1), interval=(23.0,25.0), Father= (unload hoist2 crate0 truck0 distributor1),Type=o_cond]
+		[(at truck0 distributor1), interval=(23.0,25.0), Father= (unload hoist2 crate0 truck0 distributor1),Type=o_cond]
+		[(at hoist2 distributor1), interval=(23.0,24.0), Father= (drop hoist2 crate0 pallet2 distributor1),Type=o_cond]
+		[(at pallet2 distributor1), interval=(23.0,24.0), Father= (drop hoist2 crate0 pallet2 distributor1),Type=o_cond]
+		[(clear pallet2), interval=(23.0,24.0), Father= (drop hoist2 crate0 pallet2 distributor1),Type=o_cond]
+		[(lifting hoist2 crate0), interval=(23.0,24.0), Father= (drop hoist2 crate0 pallet2 distributor1),Type=o_cond]
+	Special List:
+		[(available hoist2), interval=(24.0,24.0), Father= (drop hoist2 crate0 pallet2 distributor1),Type=e_effect]
+		[(not (lifting hoist2 crate0)), interval=(24.0,24.0), Father= (drop hoist2 crate0 pallet2 distributor1),Type=e_effect]
+		[(at crate0 distributor1), interval=(24.0,24.0), Father= (drop hoist2 crate0 pallet2 distributor1),Type=e_effect]
+		[(not (clear pallet2)), interval=(24.0,24.0), Father= (drop hoist2 crate0 pallet2 distributor1),Type=e_effect]
+		[(clear crate0), interval=(24.0,24.0), Father= (drop hoist2 crate0 pallet2 distributor1),Type=e_effect]
+		[(on crate0 pallet2), interval=(24.0,24.0), Father= (drop hoist2 crate0 pallet2 distributor1),Type=e_effect]
+(G6,25.0)
+	Standard List:
+		[(at hoist2 distributor1), interval=(23.0,25.0), Father= (unload hoist2 crate0 truck0 distributor1),Type=o_cond]
+		[(at truck0 distributor1), interval=(23.0,25.0), Father= (unload hoist2 crate0 truck0 distributor1),Type=o_cond]
+	Special List:
+(G7,1.7976931348623157E308)
+	Standard List:
+	Special List:

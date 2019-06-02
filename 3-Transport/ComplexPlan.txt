@@ -1,0 +1,17 @@
+Time: 92.001
+	[Name]: drop truck-2 city-loc-3 package-2 [when to apply]: end
+Time: 91.0012
+	[Name]: drop truck-2 city-loc-3 package-2 [when to apply]: start
+Time: 91.001
+	[Name]: drive truck-2 city-loc-4 city-loc-3 [when to apply]: end
+Time: 46.001
+	[Name]: pick-up truck-2 city-loc-4 package-2 [when to apply]: end
+Time: 46.0009
+	[Name]: drive truck-2 city-loc-4 city-loc-3 [when to apply]: start
+Time: 45.0006
+	[Name]: pick-up truck-2 city-loc-4 package-2 [when to apply]: start
+Time: 45.0
+	[Name]: drive truck-2 city-loc-3 city-loc-4 [when to apply]: end
+Time: 3.0E-4
+	[Name]: drive truck-2 city-loc-3 city-loc-4 [when to apply]: start
+

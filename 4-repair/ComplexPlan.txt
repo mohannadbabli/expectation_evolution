@@ -1,0 +1,33 @@
+Time: 98.02
+	[Name]: unload av washer_id02 area_storage [when to apply]: end
+Time: 97.02
+	[Name]: unload av washer_id02 area_storage [when to apply]: start
+Time: 97.017
+	[Name]: move av area_inspect area_storage [when to apply]: end
+Time: 92.017
+	[Name]: move av area_inspect area_storage [when to apply]: start
+Time: 92.015
+	[Name]: load av washer_id02 area_inspect [when to apply]: end
+Time: 92.013
+	[Name]: repair av washer_id02 area_inspect [when to apply]: end
+Time: 91.015
+	[Name]: load av washer_id02 area_inspect [when to apply]: start
+Time: 12.013
+	[Name]: repair av washer_id02 area_inspect [when to apply]: start
+Time: 12.01
+	[Name]: unload av washer_id02 area_inspect [when to apply]: end
+Time: 11.01
+	[Name]: unload av washer_id02 area_inspect [when to apply]: start
+Time: 11.008
+	[Name]: move av area_transit area_inspect [when to apply]: end
+Time: 6.008
+	[Name]: move av area_transit area_inspect [when to apply]: start
+Time: 6.005
+	[Name]: load av washer_id02 area_transit [when to apply]: end
+Time: 5.005
+	[Name]: load av washer_id02 area_transit [when to apply]: start
+Time: 5.003
+	[Name]: move av area_storage area_transit [when to apply]: end
+Time: 0.003
+	[Name]: move av area_storage area_transit [when to apply]: start
+
